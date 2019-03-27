@@ -6,7 +6,6 @@
 }
 footer {
             background-color: #9999ff!important;
-            padding: 10px !important;
         }
 
 .nomPersonnel{
@@ -18,6 +17,12 @@ td p{
 }
 table {
   border-collapse: separate;
+}
+
+.sectionVoyage > h4 {
+  margin: 30px 0 20px 0;
+  letter-spacing: 0.5px;
+  color: #366eaa !important;
 }
 
 td {
@@ -34,7 +39,6 @@ td {
   }
 }
 
-}
 .imgPersonnel{
   display: block;
     margin-left: auto;
@@ -64,16 +68,25 @@ padding-left: 100px;
 
 .sectionVoyage {
   display: inline-block;
-  margin: 0.25rem;
+  margin: 0.40rem 0.25rem 0.40rem 0.25rem;
   padding: 1rem;
   width: 100%;
   background: white;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3);
-  padding: 10px;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+
+  
+
+  -webkit-transition: all 250ms ease-in-out;
+-moz-transition: all 250ms ease-in-out;
+-ms-transition: all 250ms ease-in-out;
+-o-transition: all 250ms ease-in-out;
+transition: all 250ms ease-in-out;
 }
 .sectionVoyage:hover {
-  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-  margin-top: -3px;
+  box-shadow: 1px 1px 10px rgba(40, 37, 55, 0.2);
+  
   }
 
 /*  styles for background color, etc; not necessary for this thing to work  */
@@ -93,10 +106,23 @@ padding-left: 100px;
   width: 100%;
   max-width: 100%;
   height: auto;
+  border-radius: 14px;
+}
+
+.imgVoyage:hover {
+  box-shadow : 1px 4px 20px 0px #0045ff30;
+
+  -webkit-transition: all 250ms ease-in-out;
+  -moz-transition: all 250ms ease-in-out;
+  -ms-transition: all 250ms ease-in-out;
+  -o-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
 }
 
 .masonryphoto{
 	width: 100%;
 }
 
-
+.maps-wrapper iframe {
+  width: 100%;
+}
